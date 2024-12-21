@@ -6,7 +6,6 @@ import sizeLogo from "../assets/homeScreen-assets/sizeLogo.png"
 function Repository(){
     console.log("from repoo")
     const[hover,setHover]=React.useState(false)
-
     let userData=[
         {
             repoName:"design-system",
@@ -52,11 +51,11 @@ function Repository(){
         }
     ]
 
-    let repoDataStyle=(hover?{backgroundColor:"#e9eaeb"}:{backgroundColor:"#ffffff"})
-
-    let dataCard=userData.map(data=>{
+    var repoDataStyle=(hover?{backgroundColor:"#e9eaeb"}:({backgroundColor:"#ffffff"}))
+    
+    let dataCard=userData.map((data,index)=>{
        return( 
-       <div className="repo-info" style={repoDataStyle}>
+       <div key={index} className="repo-info" style={repoDataStyle}>
          <div className="repo-name">
             <h3>{data.repoName}</h3>
             <div className="status">
