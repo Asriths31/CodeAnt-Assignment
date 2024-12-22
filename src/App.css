@@ -191,6 +191,9 @@ a{
     margin-top: 20px;
     font-weight: 600;
 }
+.loginButton:hover{
+    background-color: #e9eaeb;
+}
 .loginButton img{
     height: 25px;
     width: 25.59;
@@ -245,7 +248,7 @@ a{
     position: absolute;
     height: 10px;
     width: 16px;
-    left:200px ;
+    left:184px ;
 }
 
 .navbar input{
@@ -296,7 +299,7 @@ footer{
     width: 80%;
     /* background-color: #1570ef; */
     padding-left: 60px;
-    margin-top: 290px;
+    margin-top: 200px;
 }
 footer div{
     margin-bottom: 1px;
@@ -413,7 +416,6 @@ header{
     border: 1px solid #e9eaeb;
 }
 
-
 .repo-info{
     display: block;
     width: 97.5%;
@@ -423,12 +425,10 @@ header{
     padding:0 0 0 30px;
     
 }
-.repo-name:hover{
+.repo-info:hover{
     background-color: #e9eaeb;
 }
-.repo-name:hover .repo-data{
-    background-color: #e9eaeb;
-}
+
 .repo-name{
     display: flex;
     width: 100%;

@@ -55,7 +55,8 @@ function Repository(){
     
     let dataCard=userData.map((data,index)=>{
        return( 
-       <div key={index} className="repo-info" style={repoDataStyle}>
+    <div className="repo-info-outer" style={repoDataStyle}>
+       <div key={index} className="repo-info">
          <div className="repo-name">
             <h3>{data.repoName}</h3>
             <div className="status">
@@ -67,7 +68,8 @@ function Repository(){
             <div><img src={sizeLogo}></img><span>{data.size}</span></div>
             <span>Updated {data.lastUpdated} ago</span>
          </div>
-       </div>)
+       </div>
+    </div> )
     })
     return(
         <>
