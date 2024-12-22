@@ -423,18 +423,22 @@ header{
     padding:0 0 0 30px;
     
 }
-.repo-info:hover{
+.repo-name:hover{
+    background-color: #e9eaeb;
+}
+.repo-name:hover .repo-data{
     background-color: #e9eaeb;
 }
 .repo-name{
     display: flex;
-    width: auto;
+    width: 100%;
     /* justify-content: space-between; */
     align-items: center;
+    margin-left: -30px
     
 }
 .repo-name h3{
-    margin-right: 10px;
+    padding-left: 40px;
     font-weight: 600;
 }
 .status{
