@@ -599,8 +599,15 @@ header{
     .dot{
         height: 6px;
         width: 6px;
-        margin-top: 3px;
+        margin-top: 0px;
     }
+    .repo-data div img{
+        margin-top:3px;
+    }
+    .repo-data span{
+        margin-top:3px;
+    }
+
 
 
 
