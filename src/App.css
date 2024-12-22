@@ -438,7 +438,7 @@ header{
     
 }
 .repo-name h3{
-    padding-left: 40px;
+    padding:0 10px 0 30px;
     font-weight: 600;
 }
 .status{
